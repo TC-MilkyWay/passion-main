@@ -1,0 +1,33 @@
+JOURNAL DE BORD.
+
+1. Trouver l'idée.
+2.Faire un croquis de la page d'accueil avec un header, un menu à gauche,le contenu, et un footer.
+3.Estimer le nombre de pages (~8pages).  
+4.Mise en place de la page index.html (page d'accueil) avec le type de document ( !doctype), ensuite <head> qui comprend le titre de la page 
+qui s'affichera dans la barre du navigateur(barre presentation), le lien du fichier css ( fichier de style ) et la chart( utf-8).
+5.Ensuite apres <head> je passe au <body>
+6 Dans celui ci je fais le Header. j'insere un bandeau animé que j'ai fait moi meme en metttant une animation, un texten inséré des photos et ensuite j'ai changer le format en gif pour la taille et garder l'animation.
+Ensuite je l'ai de nouveau compressé pour une taille la plus petite.
+7.J'ai rajoute un titre dans le header en dessous du bandeau.
+8.Création du menu à gauche. Crée un partie <nav>.Crée une liste ( <ul> <li> et inclure les liens des pages. avec a href=.....
+9.Ensuite le contenu. création d'une section puis un article ( à lintérieur differents paragraphes)
+10.insertion d'une image <img src=.... avec son format width et height.
+11.implantation d'un pdf pour avoir une carte interactive, possibilité de cliquer sur la carte pour acceder au diiferents lieux (pages) (iframe src=... )
+12.Création du footer qui contient 4 blocs avec chacun des titres et des listes a l'intérieur avec sur chaque titre des emoji.( car plus léger qu'une image).
+13.Je place dans le footer au dessus des menus les boutons précedents, home, suivant et retour au haut de page.Je créer une ligne pour séparer les boutons des menus du footer.
+14.Mise en place de toutes les autres pages du site avec la même trame .
+
+CSS:(fiche de style)
+
+1.body: une class donne les valeurs , arriere plant, les marges, la taille du texte, les font family etc... 
+2.Ensuite le header, je crée une class header , implantation du bangeau , sa hauteur sa largeur et sa position.
+3.Je crée une class header h1 pour le titre de l'entête. donne la couleur d'écriture son arriere plan,sa position...
+4.Les articles , je leurs donne une class .contenu avec ces caracteristiques( je rajoute en plus des choses habituelles , du padding.) 
+et à l'interieur du contenu je crée une class contenu p pour les caractéristique des paragraghes à  l'intérieur du contenu.
+5.Pour le pdf , je fais une classe image.
+6. Ensuite le footer. je cree footer{ pour toutes les caractéristiques du footer. une class .boutons pour les boutons de navigation.
+7.je crée une class pour le contenu du footer( positionnement, taille padding..). une class pour les blocs en general( largeur, et marges).
+une class pour tous les titres de chaque bloc. une class pour chaque liste de chaque bloc. 
+8.Ensuite je fais la class menu pour mon menu de gauche . avec toutes les caractéristiques habituelles et aussi la position sticky pour qu'il descende en même temps que l'on scroll.
+9.je mets en place le a:hover{ pour faire surbriller quand on passe sur les liens. et aussi le text decoration:none pour que les liens restent noir et pas bleu .
+10.Pour finir je fais des classes image et image2 pour mes images.
